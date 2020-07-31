@@ -19,6 +19,7 @@ export const Container = styled.div`
 export const Avatar = styled.div`
   width: 40px;
   height: 40px;
+  flex-shrink: 0;
   background-color: var(--secondary);
   border-radius: 50%;
   &.bot {
